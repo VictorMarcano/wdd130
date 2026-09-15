@@ -43,9 +43,6 @@ aside img {
 footer {
     margin-top: 2em;
     border-top: 0.5em solid darkblue;
-}
-
-footer p {
     text-align: center;
     padding-bottom: 5px;
 }
