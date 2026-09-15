@@ -1,10 +1,17 @@
+:root {
+    --style-background-color: rgb(61, 61, 105);
+    --text-color: wheat;
+    --widht-img: 200px;
+
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--style-background-color);
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: var(--text-color);
     display: block;
     padding: 20px;
 }
@@ -19,7 +26,7 @@ main {
 }
 
 main img {
-    width: 200px;
+    width: var(--widht-img);
     height: auto;
     border: 1px solid black;
     padding: 2px;
@@ -35,19 +42,19 @@ aside {
     margin: 2rem;
     border: 1px solid rgb(0, 0, 0.2);
     padding: 1rem;
-    background-color: rgb(61, 61, 105);
-    color: wheat;
+    background-color: var(--style-background-color);
+    color: var(--text-color);
     text-align: center;
 }
 
 aside img {
-    width: 200px;
+    width: var(--text-color);
     height: auto;
 }
 
 footer {
     margin-top: 2em;
-    border-top: 0.5em solid darkblue;
+    border-top: 0.5em solid var(--style-background-color);
     text-align: center;
     padding-bottom: 5px;
 }
