@@ -68,7 +68,7 @@ h1 {
 
 }
 
-article {
+.hero article {
     position: absolute;
     bottom: 20px;
     width: 800px;
