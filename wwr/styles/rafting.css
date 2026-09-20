@@ -32,7 +32,7 @@ h2 {
 
 }
 
-ul,
+nav,
 p,
 section,
 article {
@@ -64,11 +64,22 @@ h1 {
 
 }
 
-.hero article img {
+article {
     position: absolute;
-    float: right;
+    bottom: 20px;
+    width: 800px;
+    height: auto;
+    padding: 0.5rem;
+    text-align: left;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
+.hero article img {
     width: 150px;
-    display: block;
+    margin: 0.5rem;
+    float: right;
+
 }
 
 .socialmedia a {
