@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
 :root {
     --style-background-color: rgb(61, 61, 105);
     --text-color: wheat;
@@ -30,7 +37,14 @@ main img {
     height: auto;
     border: 1px solid black;
     padding: 2px;
+    margin-left: 1rem;
     box-shadow: 0 0 30px gray;
+    float: right;
+
+}
+
+li a {
+    color: var(--text-color);
 }
 
 p {
@@ -39,17 +53,19 @@ p {
 
 aside {
     width: 500px;
-    margin: 2rem;
-    border: 1px solid rgb(0, 0, 0.2);
-    padding: 1rem;
-    background-color: var(--style-background-color);
-    color: var(--text-color);
     text-align: center;
+    position: relative;
 }
 
 aside img {
-    width: var(--text-color);
+    width: var(--widht-img);
     height: auto;
+}
+
+aside h2 {
+    position: absolute;
+    top: 30px;
+    left: 200px;
 }
 
 footer {
@@ -57,4 +73,18 @@ footer {
     border-top: 0.5em solid var(--style-background-color);
     text-align: center;
     padding-bottom: 5px;
+}
+
+/*Class Selector*/
+.box {
+    width: 500px;
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: var(--style-background-color);
+    color: var(--text-color);
+}
+
+.indent {
+    margin-top: 6rem;
 }
