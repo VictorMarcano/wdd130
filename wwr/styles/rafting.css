@@ -42,6 +42,10 @@ article {
 
 }
 
+nav a {
+    color: var(--secondary-color);
+}
+
 .hero {
     position: relative
 }
