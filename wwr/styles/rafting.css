@@ -129,7 +129,7 @@ header {
     grid-template-columns: 150px 1fr;
     align-items: center;
     padding: 10px 20px;
-    background-color: var(--accent2-color);
+    background-color: var(--primary-color);
     margin-bottom: 1rem;
 }
 
@@ -172,7 +172,7 @@ nav {
 }
 
 .adventure-box figcaption {
-    color: var(--accent1-color);
+    color: var(--text-dark);
     order: 1;
     font-family: var(--heading-font);
     font-weight: 600;
