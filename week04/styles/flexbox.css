@@ -8,11 +8,14 @@ body {
     background-color: lightyellow;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .flex-item {
     width: 250px;
-    margin: 1rem;
+    margin: 5rem;
     border: 1px solid rgb(0 0 0 / 20%);
     padding: 0.5rem;
     background-color: #bbb;
@@ -21,12 +24,4 @@ body {
 
 .item1 {
     min-height: 100px;
-}
-
-.item2 {
-    min-height: 200px;
-}
-
-.item3 {
-    min-height: 300px;
 }
