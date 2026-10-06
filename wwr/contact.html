@@ -8,7 +8,7 @@
     <meta name="description"
       content="Learn how to get in touch with us. In tis page, you will find our adress, same with our phone number and professional email.">
     <meta name="author" content="Victor Marcano">
-    <link rel="stylesheet" href="styles/rafting_copy.css">
+    <link rel="stylesheet" href="styles/rafting.css">
 
 </head>
 
@@ -27,91 +27,89 @@
     </header>
 
     <main>
-        <div class="hero">
+        <div class="information">
             <h1>White Water Rafting Company</h1>
-            <div class="info">
-                <p>123 Main River Street</p>
-                <p>Kolob, California</p>
-                <p>+58 4121924506</p>
-                <p>victormarcano2007@gmail.com</p>
+            <p>123 Main River Street</p>
+            <p>Kolob, California</p>
+            <p>+58 4121924506</p>
+            <p>victormarcano2007@gmail.com</p>
+        </div>
+        <div class="content-layout">
+
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.8496748993684!2d-64.21097306228359!3d8.893564891134616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8dcd824d72d6e235%3A0x19720057842af702!2sLa%20Bandera!5e0!3m2!1ses-419!2sco!4v1791299406280!5m2!1ses-419!2sco"
+              width="400" height="500" allowfullscreen="" loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+
+            <form>
+                <fieldset>
+
+                    <div class="form-item column1">
+                        <label for="fullname">Full name</label>
+                        <input type="text" name="fullname" id="fullname">
+                    </div>
+
+                    <div class="form-item column1">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+
+                    <div class="form-item column1">
+                        <p class="purpose-title">Message Purpose</p>
+
+
+                        <div class="radio-group">
+                            <label><input type="radio" name="purpose" id="general" value="general">
+                                General Inquiry</label>
+                            <label><input type="radio" name="purpose" id="reservation"
+                                  value="reservation"> Reservation
+                                Question</label>
+                            <label><input type="radio" name="purpose" id="suggestion"
+                                  value="suggestion"> Website
+                                Suggestion</label>
+                        </div>
+                    </div>
+                    <div class="form-item column1">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="4"
+                          placeholder="[Type here...]"></textarea>
+                    </div>
+
+                    <div class="checkbox-group">
+                        <label for="subscribe">
+                            <input type="checkbox" name="subscribe" id="subscribe">
+                            Please subscribe me to the monthly newsletter
+                        </label>
+                    </div>
+
+                </fieldset>
+                <button type="submit">Done!</button>
+            </form>
+        </div>
+
+        <section>
+            <h2>We Are Here to Guide And Serve You!</h2>
+            <div class="employees-box">
+                <figure>
+                    <img src="images/employee2.jpg" alt="employee1">
+                    <figcaption>Victoria - Trip Leader</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/employee1.jpg" alt="employee2">
+                    <figcaption>Victor and Enrique - Raft Guides</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/employee3.jpg" alt="employee3">
+                    <figcaption>Antonella - Safety Kayaker</figcaption>
+                </figure>
+
             </div>
-            <div class="content-layout">
-
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.8496748993684!2d-64.21097306228359!3d8.893564891134616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8dcd824d72d6e235%3A0x19720057842af702!2sLa%20Bandera!5e0!3m2!1ses-419!2sco!4v1791299406280!5m2!1ses-419!2sco"
-                  width="400" height="500" allowfullscreen="" loading="lazy"
-                  referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
 
-                <form>
-                    <fieldset>
-
-                        <div class="form-item column1">
-                            <label for="fullname">Full name</label>
-                            <input type="text" name="fullname" id="fullname">
-                        </div>
-
-                        <div class="form-item column1">
-                            <label for="email">Email</label>
-                            <input type="email" name="email" id="email">
-                        </div>
-
-                        <div class="form-item column1">
-                            <p class="purpose-title">Message Purpose</p>
-
-
-                            <div class="radio-group">
-                                <label><input type="radio" name="purpose" id="general"
-                                      value="general">
-                                    General Inquiry</label>
-                                <label><input type="radio" name="purpose" id="reservation"
-                                      value="reservation"> Reservation
-                                    Question</label>
-                                <label><input type="radio" name="purpose" id="suggestion"
-                                      value="suggestion"> Website
-                                    Suggestion</label>
-                            </div>
-                        </div>
-                        <div class="form-item column1">
-                            <label for="message">Message</label>
-                            <textarea name="message" id="message" rows="4"
-                              placeholder="[Type here...]"></textarea>
-                        </div>
-
-                        <div class="checkbox-group">
-                            <label for="subscribe">
-                                <input type="checkbox" name="subscribe" id="subscribe">
-                                Please subscribe me to the monthly newsletter
-                            </label>
-                        </div>
-
-                    </fieldset>
-                    <button type="submit">Done!</button>
-                </form>
-            </div>
-
-            <section>
-                <h2>We Are Here to Guide And Serve You!</h2>
-                <div class="adventure-box">
-                    <figure>
-                        <img src="images/employee2.jpg" alt="employee1">
-                        <figcaption>Victoria - Trip Leader</figcaption>
-                    </figure>
-
-                    <figure>
-                        <img src="images/employee1.jpg" alt="employee2">
-                        <figcaption>Victor and Enrique - Raft Guides</figcaption>
-                    </figure>
-
-                    <figure>
-                        <img src="images/employee3.jpg" alt="employee3">
-                        <figcaption>Antonella - Safety Kayaker</figcaption>
-                    </figure>
-
-                </div>
-
-
-            </section>
+        </section>
 
     </main>
     <footer>
