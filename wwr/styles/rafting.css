@@ -485,16 +485,13 @@ legend {
 /* Trips CSS */
 
 table {
-    color: var(--text-dark);
-}
-
-table {
     border-collapse: collapse;
     border: 1px solid var(--accent2-color);
     letter-spacing: 1px;
     background-color: white;
     margin: auto;
     width: 100%;
+    color: var(--text-dark);
 }
 
 th,
