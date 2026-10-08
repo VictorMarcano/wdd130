@@ -182,10 +182,12 @@ nav {
 .adventure-box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    align-items: space-around;
+    justify-content: space-around;
     gap: 20px;
 
 }
+
+/* Contact Us CSS */
 
 .information {
     position: relative;
@@ -360,7 +362,7 @@ input[type="checkbox"] {
 .employees-box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    align-items: space-around;
+    justify-content: space-around;
     gap: 1rem;
 
 }
@@ -478,4 +480,109 @@ legend {
     margin-top: 4rem;
     text-align: center;
     color: var(--text-dark);
+}
+
+/* Trips CSS */
+
+table {
+    color: var(--text-dark);
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid var(--accent2-color);
+    letter-spacing: 1px;
+    background-color: white;
+    margin: auto;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 1rem 10px;
+    text-align: center;
+    border-left: 1px solid var(--accent2-color);
+}
+
+thead tr {
+    background-color: var(--accent2-color);
+    color: aliceblue;
+    font-weight: 700;
+}
+
+.alter-color {
+    background-color: var(--secondary-color);
+}
+
+.trips-page h1 {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    padding: 1rem;
+    background-color: #1C3144;
+    opacity: 0.9;
+    color: var(--secondary-color);
+}
+
+.trips-page p {
+    color: var(--text-dark);
+    font-weight: 700;
+    text-align: center;
+}
+
+.trips-page .cta-button {
+    width: 400px;
+    margin: auto;
+    background-color: #000080;
+    margin-bottom: 5rem;
+    display: block;
+
+}
+
+.trips-page .cta-button:hover {
+    background-color: green;
+}
+
+.trips-layout {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.trips-layout img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    margin-bottom: 1.1rem;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+}
+
+.trips-layout p {
+    text-align: end;
+    margin: 0 6rem 1rem 0;
+    padding: 2rem;
+    width: 100%;
+
+}
+
+.trip-text {
+    margin-bottom: 2rem;
+    border-top: var(--border-dashed);
+    border-right: var(--border-dashed);
+    border-bottom: var(--border-dashed);
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    background-color: var(--secondary-color);
+}
+
+.trip-text h3 {
+    color: var(--primary-color);
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.trip-text .cta-button {
+    margin-bottom: 1rem;
 }
