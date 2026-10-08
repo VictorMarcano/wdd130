@@ -12,6 +12,7 @@
     --text-light: #F0F4F8;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
+    --border-dashed: 3px dashed var(--accent2-color);
 }
 
 body {
@@ -362,4 +363,119 @@ input[type="checkbox"] {
     align-items: space-around;
     gap: 1rem;
 
+}
+
+/* Home page CSS */
+
+.hero1 {
+    position: relative;
+}
+
+.hero1 img {
+    width: 100%;
+}
+
+.hero1 h1 {
+    position: absolute;
+    width: 100%;
+    top: 230px;
+    padding: 2rem;
+    background-color: #1C3144;
+    opacity: 0.9;
+    color: var(--secondary-color);
+
+}
+
+legend {
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.content-layout button {
+    margin: auto;
+
+}
+
+.content-layout p {
+    color: var(--text-dark);
+}
+
+.purpose-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    position: relative;
+}
+
+.purpose-box h2 {
+    position: absolute;
+}
+
+.h1 {
+    top: 10px;
+    right: 150px;
+}
+
+.h2 {
+    bottom: 255px;
+    right: 560px;
+
+}
+
+.purpose-box img {
+    margin: 0 0 1rem 0
+}
+
+.purpose-box .p1 {
+    margin: 0 0 1rem 0;
+    padding: 4.7rem;
+    border-top: var(--border-dashed);
+    border-right: var(--border-dashed);
+    border-bottom: var(--border-dashed);
+}
+
+.purpose-box .p2 {
+    margin: 0 0 1rem 0;
+    padding: 5.4rem 4.7rem 4rem 4.7rem;
+    border-top: var(--border-dashed);
+    border-left: var(--border-dashed);
+    border-bottom: var(--border-dashed);
+}
+
+.purpose-box p {
+    background-color: var(--secondary-color);
+    color: var(--text-dark);
+    font-weight: 700;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 2.3rem;
+    padding: 0.85rem;
+    background-color: green;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    text-align: center;
+    width: 100%;
+
+}
+
+.cta-button:hover {
+    background-color: #000080;
+}
+
+.newsletter-info {
+
+    text-align: center;
+}
+
+.newsletter-info p {
+    font-weight: 700;
+    margin-top: 4rem;
+    text-align: center;
+    color: var(--text-dark);
 }
